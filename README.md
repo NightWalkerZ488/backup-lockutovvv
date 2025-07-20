@@ -22,6 +22,7 @@
 ### Ответ:
 1.Создаём скрипт для резервного копирования:
 
+```
 #!/bin/bash
 SOURCE="$HOME/"
 DEST="/tmp/backup"
@@ -32,6 +33,7 @@ if [ $? -eq 0 ]; then
 else
    logger -t "$LOG_TAG" "Ошибка при выполнении."
 fi
+```
 
 2. Создаём задание в ![cron](https://github.com/NightWalkerZ488/backup-lockutovvv/blob/main/crontab)
 
