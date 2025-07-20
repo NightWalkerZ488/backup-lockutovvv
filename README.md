@@ -22,19 +22,16 @@
 ### Ответ:
 1.Создаём скрипт для резервного копирования:
 
-` #!/bin/bash
-
+`#!/bin/bash
 SOURCE="$HOME/"
 DEST="/tmp/backup"
 LOG_TAG="rsync_backup"
-
 rsync -a --checksum --exclude='.*' --delete "$SOURCE" "$DEST"
-
 if [ $? -eq 0 ]; then
     logger -t "$LOG_TAG" "Резервное копирование произведено успешно."
 else
     logger -t "$LOG_TAG" "Ошибка при выполнении."
-fi `
+fi`
 
 2. Создаём задание в ![cron](https://github.com/NightWalkerZ488/backup-lockutovvv/blob/main/crontab)
 
