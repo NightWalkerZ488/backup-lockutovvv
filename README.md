@@ -20,7 +20,7 @@
 - На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
 ### Ответ:
-Создаём скрипт для резервного копирования:
+1.Создаём скрипт для резервного копирования:
 
 ` #!/bin/bash
 
@@ -36,9 +36,9 @@ else
     logger -t "$LOG_TAG" "Ошибка при выполнении."
 fi `
 
-Создаём задание в ![cron](https://github.com/NightWalkerZ488/backup-lockutovvv/blob/main/crontab)
+2. Создаём задание в ![cron](https://github.com/NightWalkerZ488/backup-lockutovvv/blob/main/crontab)
 
-Результат выполнения скрипта:
+3. Результат выполнения скрипта:
 
 ![скрипт](https://github.com/NightWalkerZ488/backup-lockutovvv/blob/main/backUP.PNG)
 
