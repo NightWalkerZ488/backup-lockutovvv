@@ -38,7 +38,9 @@ fi `
 
 Создаём задание в ![cron](https://github.com/NightWalkerZ488/backup-lockutovvv/blob/main/crontab)
 
+
 Результат выполнения скрипта:
+
 Создаём задание в ![скрипт](https://github.com/NightWalkerZ488/backup-lockutovvv/blob/main/backUP.PNG)
 
 
